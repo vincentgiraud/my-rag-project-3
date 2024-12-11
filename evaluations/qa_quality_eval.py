@@ -7,7 +7,7 @@ from promptflow.core import AzureOpenAIModelConfiguration
 from promptflow.evals.evaluate import evaluate
 from promptflow.evals.evaluators import RelevanceEvaluator, FluencyEvaluator, GroundednessEvaluator, CoherenceEvaluator
 
-from azure_config import AzureConfig 
+from azure_config import AzureConfig
 
 def main():
 
